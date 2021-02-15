@@ -17,7 +17,7 @@ Testing Input Box
     element should be visible  ${"user_txt"}
     element should be enabled  ${"user_txt"}
 
-    input text  ${"user_txt"}  2031710150
+    input text  ${"user_txt"}  #username
     sleep  5
     clear element text  ${"user_txt"}
     sleep  3
