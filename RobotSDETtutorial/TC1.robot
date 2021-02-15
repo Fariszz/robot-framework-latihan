@@ -14,6 +14,6 @@ Login Test
 
 *** Keywords ***
 LoginToApplication
-    input text  id:username  2031710150
-    input text  id:password  2031710150
+    input text  id:username  #username
+    input text  id:password  #password
     click element  xpath://*[@id="loginbtn"]
